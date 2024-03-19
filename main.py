@@ -6,8 +6,8 @@ from mysocket import MySocket
 host_str = input("Port ") or '9090'
 host_int = int(host_str)
 names = {}
-users = {"Alice": {"password": "1234", "token": None},
-         "Bob": {"password": "password", "token": None},
+users = {"A": {"password": "1234", "token": None},
+         "bb": {"password": "password", "token": None},
          "127.0.0.1":{"password":"56","token":None}}
 
 try:
